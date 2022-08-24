@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hitam_background_content">
+
+    <RelativeLayout
+        android:id="@+id/isi_android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/hitam_background">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="326dp"
+            android:src="@drawable/handphone_transparent"
+
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/isi_android"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:id="@+id/content_header1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bagaimana cara mengambil foto"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/content_header2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content_header1"
+            android:text="menggunakan Stiker AR?"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+
+            />
+
+        <LinearLayout
+            android:id="@+id/container_analytic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content_header2"
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/android_shape_outline"
+                android:text="Kamera"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+
+            <TextView
+                android:id="@+id/suka_analityc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1594K"
+                android:textColor="@color/white"
+                android:paddingLeft="50dp"
+
+
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/isi_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/container_analytic"
+            android:paddingTop="20dp"
+            android:text="Buka Kamera > Lainnya > Stiker AR. Ketuk ikon Stiker di sudut kanan bawah, pilih stiker pilihan Anda, dan ambil foto."
+            android:textColor="@color/white"
+            android:textSize="16sp"
+
+
+            />
+
+        <Button
+            android:id="@+id/button_coba_sekarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/isi_content"
+            android:layout_marginTop="30dp"
+            android:text="Cobalah sekarang"
+
+
+            />
+
+        <TextView
+            android:id="@+id/suka_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Suka: 19k"
+            android:textColor="@color/white"
+
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
