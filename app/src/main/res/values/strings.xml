@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">cobagit</string>
+    <string name="cara_bangunin_di_telpon">Bagaimana Cara menggunakan Angkat untuk Membangunkan di Telepon?</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="jumlah_view">1291K</string>
+    <string name="teks_tutor_angkat"><![CDATA[Masuk ke Pengaturan. Cari Hidupkan/matikan layar pintar > hidupkan Angkat untuk membangunkan. Kemudian layar akan secara otomatis bangun ketika Anda mengangkat telepon dari permukaan data.]]></string>
+    <string name="cobalah_sekarang">Cobalah Sekarang</string>
 </resources>

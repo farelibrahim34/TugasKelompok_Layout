@@ -9,4 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="hitam_background">#323433</color>
     <color  name="hitam_background_content">#171717</color>
+    <color name="blue">#3F51B5</color>
+    <color name="grey">#9A9696</color>
+    <color name="light_blue">#5E77FF</color>
 </resources>
