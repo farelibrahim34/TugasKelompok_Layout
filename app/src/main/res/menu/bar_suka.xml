@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title=""
+        android:id="@+id/logosuka"
+        android:icon="@drawable/img_1"/>
+    <item android:title="Suka : 18K"
+        android:id="@+id/suka"/>
+</menu>
