@@ -70,12 +70,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:background="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.078"
             app:layout_constraintStart_toEndOf="@+id/textView902"
             app:layout_constraintTop_toBottomOf="@+id/textView1502"
-            app:srcCompat="@drawable/ic_baseline_remove_red_eye_24" />
+            app:srcCompat="@drawable/ic_eye" />
 
         <ImageView
             android:id="@+id/imageView1002"
@@ -83,10 +82,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:layout_marginTop="8dp"
-            android:background="@color/white"
             app:layout_constraintStart_toEndOf="@+id/textView1602"
             app:layout_constraintTop_toBottomOf="@+id/textView1502"
-            app:srcCompat="@drawable/ic_baseline_thumb_up_alt_24" />
+            app:srcCompat="@drawable/img_1" />
 
         <ImageView
             android:id="@+id/imageView112"
@@ -293,12 +291,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:background="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.078"
             app:layout_constraintStart_toEndOf="@+id/textView90"
             app:layout_constraintTop_toBottomOf="@+id/textView150"
-            app:srcCompat="@drawable/ic_baseline_remove_red_eye_24" />
+            app:srcCompat="@drawable/ic_eye" />
 
         <ImageView
             android:id="@+id/imageView100"
@@ -306,10 +303,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:layout_marginTop="8dp"
-            android:background="@color/white"
             app:layout_constraintStart_toEndOf="@+id/textView160"
             app:layout_constraintTop_toBottomOf="@+id/textView150"
-            app:srcCompat="@drawable/ic_baseline_thumb_up_alt_24" />
+            app:srcCompat="@drawable/img_1" />
 
         <ImageView
             android:id="@+id/imageView11"
@@ -448,12 +444,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:background="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.078"
             app:layout_constraintStart_toEndOf="@+id/textView91"
             app:layout_constraintTop_toBottomOf="@+id/textView151"
-            app:srcCompat="@drawable/ic_baseline_remove_red_eye_24" />
+            app:srcCompat="@drawable/ic_eye" />
 
         <ImageView
             android:id="@+id/imageView101"
@@ -461,10 +456,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:layout_marginTop="8dp"
-            android:background="@color/white"
             app:layout_constraintStart_toEndOf="@+id/textView161"
             app:layout_constraintTop_toBottomOf="@+id/textView151"
-            app:srcCompat="@drawable/ic_baseline_thumb_up_alt_24" />
+            app:srcCompat="@drawable/img_1" />
 
         <ImageView
             android:id="@+id/imageView12"
@@ -541,12 +535,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:background="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.078"
             app:layout_constraintStart_toEndOf="@+id/textView9"
             app:layout_constraintTop_toBottomOf="@+id/textView15"
-            app:srcCompat="@drawable/ic_baseline_remove_red_eye_24" />
+            app:srcCompat="@drawable/ic_eye" />
 
         <ImageView
             android:id="@+id/imageView10"
@@ -554,10 +547,9 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:layout_marginTop="8dp"
-            android:background="@color/white"
             app:layout_constraintStart_toEndOf="@+id/textView16"
             app:layout_constraintTop_toBottomOf="@+id/textView15"
-            app:srcCompat="@drawable/ic_baseline_thumb_up_alt_24" />
+            app:srcCompat="@drawable/img_1" />
 
         <ImageView
             android:id="@+id/imageView13"
