@@ -55,8 +55,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/content_header2"
-            android:paddingTop="20dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:paddingTop="20dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -76,9 +76,9 @@
                 android:id="@+id/suka_analityc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
                 android:text="1594K"
                 android:textColor="@color/white"
-                android:paddingLeft="50dp"
 
 
                 />
