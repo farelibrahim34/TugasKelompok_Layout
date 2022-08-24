@@ -3,9 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/cobagit/app/src/main/res/layout/layout5.xml" value="0.14130434782608695" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/cobagit/app/src/main/res/layout/layout_tiga.xml" value="0.14130434782608695" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/cobagit/app/src/main/res/layout/layout_willy.xml" value="0.22" />
+        <entry key="..\:/Farrel/kotlin/cobagit/app/src/main/res/layout/activity_main.xml" value="0.2703125" />
+        <entry key="..\:/Farrel/kotlin/cobagit/app/src/main/res/layout/coba1.xml" value="0.2703125" />
+        <entry key="..\:/Farrel/kotlin/cobagit/app/src/main/res/layout/layout2.xml" value="0.28541666666666665" />
+        <entry key="..\:/Farrel/kotlin/cobagit/app/src/main/res/layout/layout_willy.xml" value="0.28541666666666665" />
+        <entry key="..\:/Materi-Kuliah/AndroidStudioProjects/cobagit/app/src/main/res/drawable/button_rounded_blue.xml" value="0.1" />
+        <entry key="..\:/Materi-Kuliah/AndroidStudioProjects/cobagit/app/src/main/res/drawable/ic_eye.xml" value="0.1385" />
+        <entry key="..\:/Materi-Kuliah/AndroidStudioProjects/cobagit/app/src/main/res/drawable/rounded_outline_blue.xml" value="0.1" />
+        <entry key="..\:/Materi-Kuliah/AndroidStudioProjects/cobagit/app/src/main/res/layout/layout5.xml" value="0.19067977768277042" />
+        <entry key="..\:/Materi-Kuliah/AndroidStudioProjects/cobagit/app/src/main/res/layout/layout_3_ijul.xml" value="0.19067977768277042" />
+        <entry key="..\:/Materi-Kuliah/AndroidStudioProjects/cobagit/app/src/main/res/layout/layout_dua.xml" value="0.264" />
+        <entry key="..\:/Materi-Kuliah/AndroidStudioProjects/cobagit/app/src/main/res/layout/layout_tiga.xml" value="0.264" />
       </map>
     </option>
   </component>
