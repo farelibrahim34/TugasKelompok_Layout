@@ -177,7 +177,7 @@
             app:layout_constraintHorizontal_bias="0.417"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/img_1" />
+            app:srcCompat="@drawable/ic_thumbsup" />
 
         <TextView
             android:id="@+id/textView5"
