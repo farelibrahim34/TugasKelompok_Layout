@@ -178,8 +178,9 @@
                 android:textStyle="bold" />
 
 
-        </RelativeLayout>
 
+
+        </RelativeLayout>
 
     </RelativeLayout>
 
@@ -192,6 +193,16 @@
         android:orientation="horizontal">
 
     </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="640dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_input_add" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/bottomNavigationView"
@@ -210,8 +221,5 @@
             app:menu="@menu/bottom_nav_layout1" />
 
     </androidx.cardview.widget.CardView>
-
-
-
 
 </RelativeLayout>
