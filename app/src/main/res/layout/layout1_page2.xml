@@ -42,10 +42,10 @@
                     app:layout_constraintStart_toEndOf="@+id/imageView15"
                     app:layout_constraintTop_toTopOf="parent" />
 
-                <de.hdodenhof.circleimageview.CircleImageView
+                <ImageView
                     android:id="@+id/circleImageView"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
                     android:src="@drawable/ic_account"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -99,7 +99,7 @@
             <ImageView
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/img"/>
+                android:src="@drawable/cloud_night"/>
 
             <TextView
                 android:layout_width="wrap_content"
