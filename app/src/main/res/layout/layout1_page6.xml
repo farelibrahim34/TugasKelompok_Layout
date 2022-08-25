@@ -137,8 +137,7 @@
             android:layout_marginStart="20dp"
             android:layout_marginLeft="25dp"
             android:layout_marginTop="20dp"
-            android:layout_marginRight="25dp"
-            android:layout_marginBottom="25dp">
+            android:layout_marginRight="25dp">
 
             <TextView
                 android:id="@+id/sumber"
@@ -182,8 +181,6 @@
         </RelativeLayout>
 
 
-
-
     </RelativeLayout>
 
     <LinearLayout
@@ -198,15 +195,16 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/bottomNavigationView"
+        android:layout_below="@id/pembatasDua"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             app:itemTextColor="#635F5F"
             app:labelVisibilityMode="labeled"
             app:menu="@menu/bottom_nav_layout1" />
