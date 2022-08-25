@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageGoogle"
+        android:layout_width="358dp"
+        android:layout_height="415dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/google_workspace"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="30dp"
+        android:paddingBottom="150dp"
+        />
+
+    <ImageView
+        android:id="@+id/googleLogo"
+        android:layout_width="308dp"
+        android:layout_height="82dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/google_logo_grey"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="590dp"
+        android:layout_marginBottom="60dp"
+
+        />
+
+</RelativeLayout>
