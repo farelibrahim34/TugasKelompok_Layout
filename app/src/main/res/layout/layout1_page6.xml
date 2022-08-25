@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F2F3F5">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/toolbar1Page6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/searchBar"
+                    android:layout_width="30dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/ic_search" />
+
+                <TextView
+                    android:id="@+id/favorit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/searchBar"
+                    android:text="Favorit"
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circleImageView"
+                    android:layout_width="40dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="103dp"
+                    android:layout_toRightOf="@id/favorit"
+                    android:src="@drawable/ic_account" />
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/content1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar1Page6"
+        android:background="#FFFFFF">
+
+        <RelativeLayout
+            android:id="@+id/contentSatu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp">
+
+            <TextView
+                android:id="@+id/topic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Topik"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/isiContentSatu"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/topic"
+                android:layout_marginTop="30dp"
+                android:text="Anda tidak mengikuti topik apa pun. Tambahkan topik untuk melihat artikel lainnya tentang topik tersebut di feed Untuk Anda."
+                android:textColor="#A6A6A6"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/gambarTopic"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_toRightOf="@id/isiContentSatu"
+                android:paddingTop="50dp"
+                android:src="@drawable/topik_gambar_page6" />
+
+            <TextView
+                android:id="@+id/buttonTambahTopic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/isiContentSatu"
+                android:layout_marginTop="25dp"
+                android:text="Tambahkan topik"
+                android:textColor="#6281B9"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/pembatasSatu"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/content1"
+        android:background="#F2F2F5"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/content2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pembatasSatu"
+        android:background="#FFFFFF">
+
+
+        <RelativeLayout
+            android:id="@+id/contentDua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp">
+
+            <TextView
+                android:id="@+id/sumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Topik"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/isiContentDua"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sumber"
+                android:layout_marginTop="30dp"
+                android:text="Anda tidak mengikuti topik apa pun. Tambahkan topik untuk melihat artikel lainnya tentang topik tersebut di feed Untuk Anda."
+                android:textColor="#A6A6A6"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/gambarSumber"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_toRightOf="@id/isiContentDua"
+                android:paddingTop="50dp"
+                android:src="@drawable/sumber_gambar_page6" />
+
+            <TextView
+                android:id="@+id/buttonTambahSumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/isiContentDua"
+                android:layout_marginTop="25dp"
+                android:text="Tambahkan sumber"
+                android:textColor="#6281B9"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/pembatasDua"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/content2"
+        android:background="#F2F2F5"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:itemTextColor="#635F5F"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/bottom_nav_layout1" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

@@ -3,9 +3,10 @@ package com.example.cobagit
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.layout1_page1)
+        setContentView(R.layout.layout1_page6)
     }
 }
