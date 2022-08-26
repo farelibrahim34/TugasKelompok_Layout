@@ -6,6 +6,50 @@
     android:layout_height="match_parent"
     android:background="@color/black">
 
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardpencari"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/abu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@+id/cari"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_baseline_searchputih_24" />
+
+        <TextView
+            android:id="@+id/textpengguna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:text="Cari Kiat Pengguna"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:layout_margin="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="@color/black"
+        android:src="@drawable/ic_baseline_settings_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cardpencari"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/frameLayout22"
         android:layout_width="match_parent"
@@ -98,16 +142,17 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="412dp"
         android:layout_height="161dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="60dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/gambar_layout1" />
-
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/bottomNavigationView"

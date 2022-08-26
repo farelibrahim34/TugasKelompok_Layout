@@ -172,11 +172,11 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/isiContentDua"
                 android:layout_marginTop="25dp"
+                android:layout_marginBottom="20dp"
                 android:text="Tambahkan sumber"
                 android:textColor="#6281B9"
                 android:textSize="20sp"
-                android:textStyle="bold"
-                android:layout_marginBottom="20dp"/>
+                android:textStyle="bold" />
 
         </RelativeLayout>
 

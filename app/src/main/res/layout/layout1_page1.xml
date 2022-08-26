@@ -10,12 +10,11 @@
         android:layout_width="358dp"
         android:layout_height="415dp"
         android:layout_centerInParent="true"
+        android:paddingBottom="150dp"
         android:src="@drawable/google_workspace"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="30dp"
-        android:paddingBottom="150dp"
-        />
+        tools:layout_editor_absoluteY="30dp" />
 
     <ImageView
         android:id="@+id/googleLogo"
